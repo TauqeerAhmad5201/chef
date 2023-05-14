@@ -12,3 +12,4 @@ All about learnings of chef
 ---- Added code to run ----
 
 7. chef exec ruby -c apache-cookbook/recipes/apache-recipe.rb
+8. sudo chef-client -zr "recipe[apache-cookbook::server-recipe]" 

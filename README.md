@@ -8,3 +8,7 @@ All about learnings of chef
 4. chef generate recipe lamp_recipe 
 5. cd .. 
 6. vi apache-cookbook/recipes/apache-recipe.rb 
+
+---- Added code to run ----
+
+7. chef exec ruby -c apache-cookbook/recipes/apache-recipe.rb

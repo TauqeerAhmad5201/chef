@@ -21,3 +21,11 @@ All about learnings of chef
 Chef-attribute 
 It is like propos in react.js. 
 
+Priority of Chef Attribute 
+
+1. default 
+2. force-default 
+3. normal
+4. override 
+5. force-override 
+6. automatic

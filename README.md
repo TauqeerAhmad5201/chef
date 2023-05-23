@@ -31,3 +31,4 @@ Priority of Chef Attribute
 6. automatic
 
 Error: Connection time out 
+Connection can't be established. 

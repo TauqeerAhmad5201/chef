@@ -19,7 +19,7 @@ All about learnings of chef
 
 
 Chef-attribute 
-It is like propos in react.js. 
+It is like props in react.js. 
 
 Priority of Chef Attribute 
 
@@ -29,3 +29,5 @@ Priority of Chef Attribute
 4. override 
 5. force-override 
 6. automatic
+
+Error: Connection time out 

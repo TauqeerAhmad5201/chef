@@ -34,4 +34,4 @@ Error: Connection time out
 Connection can't be established. 
 
 
-Language used to script : Ruby 
+Language used to script : Ruby for writing configuration

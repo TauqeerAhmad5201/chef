@@ -38,3 +38,8 @@ Language used to script : Ruby for writing configuration
 
 ![image](https://github.com/TauqeerAhmad5201/chef/assets/68806440/5abe2c1a-f724-41c2-b548-7af4f9ee6bc3)
 
+## Steps to reproduce: 
+
+Hit with the following command 
+sudo knife bootstrap 172.31.2.183 -U ec2-user --sudo -i node1.pem -N node1
+

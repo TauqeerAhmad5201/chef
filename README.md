@@ -35,3 +35,6 @@ Connection can't be established.
 
 
 Language used to script : Ruby for writing configuration
+
+![image](https://github.com/TauqeerAhmad5201/chef/assets/68806440/5abe2c1a-f724-41c2-b548-7af4f9ee6bc3)
+

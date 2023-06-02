@@ -46,4 +46,5 @@ sudo knife bootstrap 172.31.2.183 -U ec2-user --sudo -i node1.pem -N node1
 ## Definition
 Chef is broken down into three main components: the workstation, the server, and the nodes. 
 
+The workstation is the system where the admin sits. The system creates the code for configuring and managing the infrastructure, and that code (which is written in Ruby) is called a recipe. Multiple recipes in a collection are called cookbooks. The cookbooks are uploaded to the server by means of the Knife command line.
 

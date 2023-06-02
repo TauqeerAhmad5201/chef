@@ -43,3 +43,7 @@ Language used to script : Ruby for writing configuration
 Hit with the following command 
 sudo knife bootstrap 172.31.2.183 -U ec2-user --sudo -i node1.pem -N node1
 
+## Definition
+Chef is broken down into three main components: the workstation, the server, and the nodes. 
+
+

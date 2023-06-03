@@ -49,3 +49,7 @@ Chef is broken down into three main components: the workstation, the server, and
 The workstation is the system where the admin sits. The system creates the code for configuring and managing the infrastructure, and that code (which is written in Ruby) is called a recipe. Multiple recipes in a collection are called cookbooks. The cookbooks are uploaded to the server by means of the Knife command line.
 
 The Chef server is accessed primarily by nodes that are under management by Chef, as the chef-client runs occur. It is also accessed by individuals who maintain cookbooks and policy that is stored on the Chef server, typically from a workstation. And also by individual users with credentials to Chef server components, such as the Chef management console.
+
+## Load Balancer
+
+Nginx is an open-source HTTP and reverse proxy server that is used as the front-end load balancer for the Chef server. All requests to the Chef server API are routed through Nginx.

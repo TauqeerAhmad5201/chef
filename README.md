@@ -40,11 +40,6 @@ Language used to script : Ruby for writing configuration
 
 ## Steps to reproduce: 
 
-## Chef Key metrics 
-
-- Chef supports multiple platforms like AIX, RHEL/CentOS, FreeBSD, OS X, Solaris, Microsoft Windows and Ubuntu. Additional client platforms include Arch Linux, Debian and Fedora.
-
-
 Hit with the following command 
 sudo knife bootstrap 172.31.2.183 -U ec2-user --sudo -i node1.pem -N node1
 
@@ -58,3 +53,7 @@ The Chef server is accessed primarily by nodes that are under management by Chef
 ## Load Balancer
 
 Nginx is an open-source HTTP and reverse proxy server that is used as the front-end load balancer for the Chef server. All requests to the Chef server API are routed through Nginx.
+
+## Chef Key metrics 
+
+- Chef supports multiple platforms like AIX, RHEL/CentOS, FreeBSD, OS X, Solaris, Microsoft Windows and Ubuntu. Additional client platforms include Arch Linux, Debian and Fedora.
